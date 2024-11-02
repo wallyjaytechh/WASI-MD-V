@@ -38,7 +38,7 @@ global.THUMB_IMAGE =
 global.devs = "923135673658";
 global.sudo = process.env.SUDO || "923192173398";
 global.owner = process.env.OWNER_NUMBER || "923192173398";
-global.style = process.env.STYLE || "3";
+global.style = process.env.STYLE || "2";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
 global.warncount = process.env.WARN_COUNT || 3;
@@ -46,13 +46,13 @@ global.disablepm = process.env.DISABLE_PM || "false";
 (global.disablegroup = process.env.DISABLE_GROUPS || "false"),
   (global.MsgsInLog = process.env.MSGS_IN_LOG || "true");
 global.userImages = process.env.USER_IMAGES || "";
-global.waPresence = process.env.WAPRESENCE || "recording";
+global.waPresence = process.env.WAPRESENCE || "typing";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
 global.read_status = process.env.AUTO_READ_STATUS || "true";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
-global.save_status_from = process.env.SAVE_STATUS_FROM || "";
+global.save_status_from = process.env.SAVE_STATUS_FROM || "2348054984935";
 global.read_status_from = process.env.READ_STATUS_FROM || "";
 global.autoreaction = process.env.autoreaction || "true";
 
@@ -74,7 +74,7 @@ module.exports = {
   ownername: process.env.OWNER_NAME || "WASI",
   errorChat: process.env.ERROR_CHAT || "923192173398",
   KOYEB_API: process.env.KOYEB_API || "false",
-  REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "dyrbNSNtMf1CE84he61DR7Wx",
+  REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "5NcxjXcNs2CA2frKwDVM815b",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "",
